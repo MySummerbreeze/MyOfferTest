@@ -84,5 +84,6 @@ public class MyIsSymmetric {
 		MyIsSymmetric m = new MyIsSymmetric();
 		
 		System.out.println(m.isSymmetric1(gen));
+		
 	}
 }
