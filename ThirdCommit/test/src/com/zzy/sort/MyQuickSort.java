@@ -27,10 +27,10 @@ public class MyQuickSort {
 		//最后一个值作为基准
 		int tmp = array[high];
 		while(low<high) {
-			while(tmp<array[low]&&low<high) {
+			while(tmp>=array[low]&&low<high) {
 				low++;
 			}
-			while(tmp>array[high]&&low<high) {
+			while(tmp<=array[high]&&low<high) {
 				high--;
 			}
 			if(low<high) {
@@ -50,7 +50,7 @@ public class MyQuickSort {
 	}
 	
 	public static void main(String[] args) {
-		int[] array = {2,1,6,4,5,9};
+		int[] array = {46461646,45654646 };
 		quickSort(array,0,array.length-1);
 		for (int i : array) {
 			System.out.print(i+" ");
