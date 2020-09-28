@@ -1,5 +1,11 @@
 package com.zzy.test47MaxValue;
 
+/**
+ * ¶¯Ì¬¹æ»®
+ * @author zzy
+ *
+ */
+
 public class MyMaxValue {
 	
 	public static void main(String[] args) {
